@@ -1,4 +1,4 @@
-package ro.unitbv.javadatatype;
+package Exercitiu1;
 
 import java.util.Scanner;
 

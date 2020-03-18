@@ -1,3 +1,5 @@
+package Problema2;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,7 +16,7 @@ pe diagonala principala.
 
 Rezultat: 16
 */
-public class Main 
+public class Problema2 
 {
 
 	public static void main(String[] args) 

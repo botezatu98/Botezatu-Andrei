@@ -1,3 +1,5 @@
+package Problema1;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,7 +12,7 @@ Nr = [23,13,56,12,-12,34,57,-2]
 
 Rezultat: 57
 */
-public class Main 
+public class Problema1 
 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException 
