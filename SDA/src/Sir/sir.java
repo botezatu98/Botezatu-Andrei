@@ -1,8 +1,6 @@
 package Sir;
 
-import java.lang.*;
 import java.util.Arrays;
-
 
 public class sir {
 
@@ -19,8 +17,6 @@ public class sir {
 
 		System.out.println("Sirul initial" + Arrays.toString(sirs));
 		Arrays.sort(sir);
-		// System.out.println("Sirul sortat:");
-		// System.out.println(Arrays.toString(sir));
 		int i = 0;
 		while (i < sir.length && sir[i] < 37) {
 			i++;
