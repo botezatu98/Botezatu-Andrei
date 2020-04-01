@@ -1,7 +1,5 @@
 package IfElseProblem;
 
-import java.util.Scanner;
-
 public class IfElseProblem {
 
 //	!!!!!       Doua ce arti terminat de srics codul formatati fisierul cu Ctrl+shift+f
@@ -47,11 +45,9 @@ public class IfElseProblem {
 			return 100;
 		} else
 
-		if (roadType != "Drum Express" & roadType != "Oras" & roadType != "Autostrada"
-				& roadType != "Zona Rezidentiala") {
 			System.out.println("Drumul este necunoscut");
 
-		}
+		
 		return 0;
 
 	}
@@ -75,10 +71,8 @@ public class IfElseProblem {
 						return 100;
 
 					} else {
-						if (roadType != "Drum Express" & roadType != "Oras" & roadType != "Autostrada"
-								& roadType != "Zona Rezidentiala") {
+						
 							System.out.println("Drumul este necunoscut");
-						}
 					}
 				}
 			}

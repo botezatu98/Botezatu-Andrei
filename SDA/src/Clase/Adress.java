@@ -1,9 +1,9 @@
 package Clase;
 
 public class Adress {
-	String street;
-	String city;
-	int number;
+	private String street;
+	private String city;
+	 private int number;
 
 	public Adress(String street, String city, int number) {
 		this.street = street;

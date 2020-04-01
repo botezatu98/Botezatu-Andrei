@@ -2,11 +2,11 @@ package Clase;
 
 public class Customer {
 
-	String FirstName;
-	String LastName;
-	int age;
-	Adress adress;
-	PaymentMethod payment;
+	private String FirstName;
+	private String LastName;
+	private int age;
+	private Adress adress;
+	private  PaymentMethod payment;
 
 	public Customer(String FirstName, String LastName, int age) {
 		this.FirstName = FirstName;
