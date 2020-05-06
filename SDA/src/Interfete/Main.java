@@ -73,12 +73,10 @@ public class Main {
 
 			}
 
-			int index = 0;
 			Set<String> set = new LinkedHashSet<>();
 			set.addAll(count);
 			for (String s : set) {
 				System.out.println(s + " " + Collections.frequency(count, s));
-				index++;
 			}
 			// int j=0;
 			/*

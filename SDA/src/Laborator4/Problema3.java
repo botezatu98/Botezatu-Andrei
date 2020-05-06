@@ -20,31 +20,17 @@ public class Problema3 {
 		sir[6] = 96;
 		sir[7] = 14;
 		sir[8] = 3;
-		sir[9] = 9;
+		sir[9] =9;
 		Arrays.sort(sir);
 		boolean a = false;
 		int b = 0;
 		System.out.println(java.util.Arrays.toString(sir));
 		System.out.println("Introdu numarul cautat :");
 		int p = scanner.nextInt();
-		// caut(sir, p);
 		CautareBinara(sir, p);
 
 	}
 
-	static boolean caut(int sir[], int p) {
-		boolean a = false;
-		int b = 0;
-		for (int i = 0; i < sir.length; i++) {
-			if (sir[i] == p) {
-				a = true;
-				b = 1;
-			}
-		}
-		System.out.println(a);
-		return a;
-
-	}
 
 	static boolean CautareBinara(int[] sir, int p) {
 		boolean a = false;
